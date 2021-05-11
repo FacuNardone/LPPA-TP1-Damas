@@ -13,47 +13,55 @@
 <!-- COMIENZO DE MI CODIGO -->
 
 <!-- CABECERA EN 1ER CONTAINER -->
-<header class="Minidamastitle">   
+<header>   
+    <div class="Cab">
         <h1>
-            <a href="#">Mini Damas</a> 
-            <a href="#"> DAMAS </a> 
-            <a href="#">¿QUÉ ES?</a> 
-        </h1>    
+            <a href="#" class="MiniDamasT"> Mini Damas</a> 
+            <a href="#" title="Damas Online" class="DAMAS"> DAMAS </a> 
+            <a href="#" title="Qué son las Damas" class="QUEES"> ¿QUÉ ES?</a> 
+        </h1> 
+    </div>
+           
 </header>
 
 <!-- 2DO CONTAINER -->
-<div>
-    <p class="Subtitulo">
-        <a class="Subtitulo" href="#">Mini Damas</a> 
-         Portada 
+<div class="Cab2">
+    <p class="SUBTITULO">
+        <a class="MiniDamasA" href="#">Mini Damas</a> 
+        <span class="PORTADA">/  Portada</span>
     </p>
 </div>
     
 <!-- IMAGEN -->
-<div>
+<div class="Imagen">
     <img src="Tablero.jpg" alt="Imagen de tablero de damas">
 </div>
 
+<!-- BTN NUEVA PARTIDA -->
+<div class="btnNuevaPartida">
+    <a href="#" class="NuevaPartida"> Nueva Partida </a>
+</div>
+
 <!-- DETALLE -->
- <div>
-        <p> Las <b>damas</b> es un juego de mesa para dos personas en un tablero de 64 cuadros. El juego consiste en mover las fichas en diagonal sobre los cuadros con el objetivo de comer las piezas del contrario saltando sobre ellas.
+ <section class="SeccionDetalle">
+        <p class="p1"> Las <b>damas</b> es un juego de mesa para dos personas en un tablero de 64 cuadros. El juego consiste en mover las fichas en diagonal sobre los cuadros con el objetivo de comer las piezas del contrario saltando sobre ellas.
         </p>
 
-        <p>Cada jugador dispone de 12 fichas de un mismo color situadas en las casillas negras más próximas a éste. El objetivo del juego es capturar las fichas del oponente o acorralarlas para que no puedan realizar movimientos.
+        <p class="p2">Cada jugador dispone de 12 fichas de un mismo color situadas en las casillas negras más próximas a éste. El objetivo del juego es capturar las fichas del oponente o acorralarlas para que no puedan realizar movimientos.
         </p>
 
-        <p>Si no conoces las reglas, sigue leyendo cómo se juega en <a href="#">Reglas de las damas</a>.
+        <p class="p3">Si no conoces las reglas, sigue leyendo cómo se juega en <a href="#" class="Reglas">Reglas de las damas</a>.
         </p>
         
- </div>
+ </section>
 
 <!--  PIE DE PAGINA -->
-</div>
-    <p>
+</footer>
+    <p class="PiePag">
         minidamas.com 2021 - Juega a las damas online - 
-        <a href="#">Contacto</a>
+        <a href="#" class="Contacto">Contacto</a>
     </p>
-</div>
+</footer>
 
 </body>
 </html>

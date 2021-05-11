@@ -1,0 +1,143 @@
+*
+{
+padding: 0;
+margin: 0;
+
+}
+body 
+{
+    background-color: #DDDDDD;
+}
+.Cab
+{
+    padding-right: 0;
+    padding-left: 55px; 
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin: 0px;
+    background-color: #D4707A;
+    width: 100%;
+}
+.Cab2
+{
+    padding: 4px 15px;
+    margin: 20px 30px 40px;
+    background-color: white;
+    width: 90%;
+}
+.Imagen
+{
+    margin: 20px 280px 25px;
+}
+.NuevaPartida
+{    
+    color: white;
+    background-color: #57aeea;
+    padding: 10px 45px;
+    margin-left: 43%;
+    margin-bottom: 25px;
+    border: 2px solid #84C5F3;
+    border-radius: 12px;   
+     
+}
+.btnNuevaPartida
+{
+    padding-bottom: 25px;
+    
+}
+.MiniDamasT
+{
+    font-family: 'Capriola', sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 22px;
+    color: white;
+    height: 50px;
+    margin: 0px 0px 0px -15px;
+    
+    
+}
+.DAMAS
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 16px 15px 16px 12px;
+    font-weight: 100;
+
+}
+.QUEES
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 16px 15px 16px 12px;
+    font-weight: 100;
+}
+.PORTADA
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 14px;
+}
+.MiniDamasA
+{
+    font-size: 14px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #1e5096;
+}
+.SeccionDetalle
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.Reglas
+{
+    text-decoration: none;
+    color: #1e5096;
+}
+.Contacto
+{
+    text-decoration: none;
+    color: #1e5096;
+}
+.PiePag
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-right: 50px;
+    padding-left: 50px; 
+    padding-bottom: 60px;
+    padding-top: 35px;
+    bottom: 110;
+    margin: 0px;
+    background-color:white;
+    width: 100%;
+}
+.NuevaPartida
+{
+    text-decoration: none;
+    font-family: 'Arial';
+    color: black;
+    font-size: 21px;
+}
+.p1
+{
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+.p2
+{
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+.p3
+{
+    margin-left: 40px;
+    padding-bottom: 70px;
+}
+

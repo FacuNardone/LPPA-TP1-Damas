@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Damas</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styleTablero.css">
+    <script type="text/javascript" async src="move.js"></script>
+    <script type="text/javascript" async src="boardCreation.js"></script>
+    <script type="text/javascript" async src="app.js"></script>
+    </head>
 <body>
 
 
@@ -32,14 +36,22 @@
     </p>
 </div>
     
-<!-- IMAGEN -->
-<div class="Imagen">
-    <img src="Tablero.jpg" alt="Imagen de tablero de damas">
-</div>
 
 <!-- BTN NUEVA PARTIDA -->
-<div class="btnNuevaPartida">
-    <a href="#" class="NuevaPartida"> Nueva Partida </a>
+<div id="ctnTablero"> 
+
+    <div id="tablero">
+    </div>
+
+    <div id="txtTurno">
+    </div>
+
+    <div id="ctnBoton" class="txtCenter">
+        <button class="boton" id="btnNuevaPartida">
+            Nueva partida
+        </div>
+    </div>
+
 </div>
 
 <!-- DETALLE -->

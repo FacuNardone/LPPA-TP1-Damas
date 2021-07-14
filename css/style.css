@@ -25,10 +25,6 @@ body
     background-color: white;
     width: 90%;
 }
-.Imagen
-{
-    margin: 20px 650px 25px;
-}
 .NuevaPartida
 {    
     color: white;
@@ -40,11 +36,53 @@ body
     border-radius: 12px;   
      
 }
-.btnNuevaPartida
-{
-    padding-bottom: 25px;
-    
+#btnNuevaPartida:active {
+    transform: translateY(4px);
 }
+#ctnBoton
+{
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+#btnNuevaPartida:hover {
+    opacity: 0.75;
+}
+#btnNuevaPartida
+ {
+    background: -moz-linear-gradient(center top, #57aeea, #3d94d1) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, center bottom, center top, from(#3d94d1), to(#57aeea));
+    background-color: lightBlue;
+    display: inline-block;
+    font-size: 21px;
+    margin-top: 20px;
+    padding: 10px 45px;
+    vertical-align: middle;
+    font-family: Arial;
+    color: #fff;
+    border: 1px solid #84C5F3;
+    text-shadow: 0 0 3px #333333;
+    cursor: pointer;
+    line-height: 1.42857143;
+    -moz-box-shadow: 0 0 8px 1px #888888;
+    -webkit-box-shadow: 0 0 8px 1px #888888;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
 .MiniDamasT
 {
     font-family: 'Capriola', sans-serif;

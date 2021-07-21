@@ -1,0 +1,116 @@
+.fcontacto {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+    text-align: center;
+}
+
+.fcontacto-contenido {    
+    background-color: #dddddd;
+    border-radius: 10px;
+    margin: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cerrar {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fcontacto-encabezado {
+    padding: 1px;
+    background: -webkit-gradient(linear, center bottom, center top, from(#d4707a), to(#e45c52));
+    color: white;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.fcontacto-cuerpo {
+    padding: 2px 16px;
+    display: contents;
+}
+
+.fentrada,
+.comentario {
+    margin: 0.5rem;
+    width: 70%;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.fentrada {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 2px;
+    border-color: #aca8a8;
+}
+
+.fentrada:focus {
+    outline: none !important;
+    border:2px solid #e4a6ac;
+    box-shadow: 0 0 10px #e4a6ac;
+}
+
+.fcontacto-PiePag {
+    color: white;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+
+#btnEnviar {
+    background: -webkit-gradient(linear, center bottom, center top, from(#d4707a), to(#e45c52));
+    background-color: lightBlue;
+    display: inline-block;
+    font-size: 21px;
+    margin-top: 20px;
+    padding: 10px 45px;
+    vertical-align: middle;
+    font-family: Arial;
+    margin: 15px;
+    color: #fff;
+    border: 1px solid #84c5f3;
+    text-shadow: 0 0 3px #333333;
+    cursor: pointer;
+    line-height: 1.42857143;
+    -moz-box-shadow: 0 0 8px 1px #888888;
+    -webkit-box-shadow: 0 0 8px 1px #888888;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+#btnEnviar {
+    transform: translateY(4px);
+}
+
+#btnEnviar:hover {
+    opacity: 0.75;
+}

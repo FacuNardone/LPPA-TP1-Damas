@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Damas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="Juega a las damas online. Reta al ordenador y consigue ganarle en el menor tiempo posible.">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/styleTablero.css">
+    <link rel="stylesheet" type="text/css" href="css/stylefcontacto.css">
     <script type="text/javascript" async src="move.js"></script>
     <script type="text/javascript" async src="boardCreation.js"></script>
     <script type="text/javascript" async src="app.js"></script>
+    <script type="text/javascript" async src="fcontacto.js"></script>
     </head>
 <body>
 
@@ -68,10 +70,42 @@
  </section>
 
 <!--  PIE DE PAGINA -->
-</footer>
-    <p class="PiePag">
-        minidamas.com 2021 - Juega a las damas online - 
-        <a href="#" class="Contacto">Contacto</a>
+<div id="FormContacto" class="fcontacto">
+
+    <div class="fcontacto-contenido">
+        <form id="form-fcontacto">
+
+            <div class="fcontacto-encabezado">
+                <span id="CerrarFrm" class="cerrar">&times;</span>
+                <h3>Formulario de contacto</h3>
+            </div>
+
+            <div class="frcontacto-cuerpo">
+
+                <input type="text" placeholder="Nombre" class="nombre fentrada" size="5" id="nombre">
+                <input type="text" placeholder="Apellido" class="apellido fentrada" id="apellido">
+                <input type="email" placeholder="Email" class="email fentrada" id="email">
+
+                <textarea placeholder="Comentarios... (máximo 250 palabras)" 
+                          maxlength="250" 
+                          name="comentarios"
+                          id="coments" 
+                          cols="30" 
+                          rows="10" 
+                          class="coment"></textarea>
+            </div>
+            
+            <div class="fcontacto-PiePag">
+                <input type="submit" id="btnEnviar" value="Enviar">
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer class="PiePag">
+    <p>
+        <strong>minidamas.com 2021</strong> - Juega a las damas online - <a id="Contact"
+            href="javascript:void(0);">Contacto</a>
     </p>
 </footer>
 
